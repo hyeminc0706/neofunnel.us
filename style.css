@@ -291,7 +291,7 @@ section{ padding: 92px 0; background: var(--porcelain); }
 }
 .addon-card h3{ font-size: 18px; font-weight: 800; margin: 0 0 6px; }
 .addon-card .addon-tag{ font-size: 14px; color: var(--blue); font-weight:700; margin: 0 0 14px; }
-.addon-card p{ font-size: 14.5px; color: var(--ink-soft); margin: 0 0 8px; }
+.addon-card p{ font-size: 14.5px; color: var(--ink-soft); margin: 0 0 8px; font-weight: 400; }
 
 /* Proof */
 .proof-card{ background: var(--white); border: 1px solid var(--line); border-radius: var(--radius-m); padding: 42px; }
