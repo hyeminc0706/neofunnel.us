@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Minacle — Design tokens (v2: Global K-Beauty / bold blue + cream mood)
+   NeoFunnel — Design tokens (v2: Global K-Beauty / bold blue + cream mood)
    ========================================================================== */
 
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.css');
@@ -361,3 +361,6 @@ footer{ padding: 48px 0 40px; background: var(--ink); color: var(--white); }
 .legal p, .legal li{ color: var(--ink-soft); font-size: 15px; line-height: 1.75; }
 .legal ul{ padding-left: 20px; }
 .legal .callout{ background: var(--porcelain-2); border: 1px solid var(--line); border-radius: var(--radius-m); padding: 20px 24px; font-size: 14px; color: var(--ink-soft); margin-bottom: 32px; }
+.legal .callout strong{ color: var(--ink); }
+.legal .callout ul{ margin: 10px 0; padding-left: 20px; }
+.legal .callout li{ font-size: 14px; line-height: 1.7; }

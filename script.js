@@ -14,7 +14,7 @@ if (navEl && heroEl && 'IntersectionObserver' in window) {
     });
   }, { rootMargin: `-${navHeight}px 0px 0px 0px`, threshold: 0 });
   heroIO.observe(heroEl);
-} else if (navEl) {
+} else if (navEl && heroEl) {
   navEl.classList.add('on-hero');
 }
 if (navToggle && navLinks) {
