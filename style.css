@@ -85,6 +85,8 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 /* Mobile dropdown must stay readable regardless of on-hero state */
 .nav-links.open{ background: var(--porcelain) !important; }
 .nav-links.open a{ color: var(--ink-soft) !important; }
+.nav-links.open a.nav-cta {
+    color: var(--white) !important; }
 .nav-links.open a:hover{ color: var(--ink) !important; }
 
 @media (max-width: 880px){
