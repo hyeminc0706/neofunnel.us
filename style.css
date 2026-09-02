@@ -82,12 +82,13 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .nav.on-hero .nav-logo em{ color: var(--white); }
 .nav.on-hero .nav-links a{ color: rgba(255,255,255,0.9); }
 .nav.on-hero .nav-links a:hover{ color: var(--white); }
-.nav.on-hero .nav-cta{ background: var(--white); color: var(--blue) !important; }
+.nav-cta{ background: var(--blue) !important; color: var(--white) !important; }
 .nav.on-hero .nav-toggle{ color: var(--white); }
 /* Mobile dropdown must stay readable regardless of on-hero state */
 .nav-links.open{ background: var(--porcelain) !important; }
 .nav-links.open a{ color: var(--ink-soft) !important; }
 .nav-links.open a.nav-cta {
+    background: var(--blue) !important;
     color: var(--white) !important; }
 .nav-links.open a:hover{ color: var(--ink) !important; }
 
