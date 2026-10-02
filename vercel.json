@@ -1,4 +1,1 @@
-{
-    "cleanUrls": true,
-    "trailingSlash": false
-}
+{"cleanUrls": true, "trailingSlash": false, "rewrites": [{"source": "/dream", "destination": "https://hyeminc0706.github.io/dream/"}, {"source": "/dream/:path*", "destination": "https://hyeminc0706.github.io/dream/:path*"}, {"source": "/assets/:path*", "destination": "https://hyeminc0706.github.io/dream/assets/:path*"}, {"source": "/logoblack.png", "destination": "https://hyeminc0706.github.io/dream/logoblack.png"}]}
